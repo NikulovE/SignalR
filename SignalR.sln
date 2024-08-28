@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRServer", "SignalRDemo\SignalRServer.csproj", "{CA8898F6-E92A-4C26-8824-47E3F9239FAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDesktopSingalRClient", "WPFDesktopSingalRClient\WPFDesktopSingalRClient.csproj", "{E4A4DBC7-472A-40ED-BC3D-5D3E9A3517F7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CA8898F6-E92A-4C26-8824-47E3F9239FAD} = {CA8898F6-E92A-4C26-8824-47E3F9239FAD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRTestClients", "SignalRTestClients\SignalRTestClients.csproj", "{0D9A74F1-EAEE-4912-A978-A6E3EFEE2774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRSecondClient", "SignalRSecondClient\SignalRSecondClient.csproj", "{C27731DA-3D1B-4C1C-8B3F-0525EA8A26F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA8898F6-E92A-4C26-8824-47E3F9239FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA8898F6-E92A-4C26-8824-47E3F9239FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA8898F6-E92A-4C26-8824-47E3F9239FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA8898F6-E92A-4C26-8824-47E3F9239FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4A4DBC7-472A-40ED-BC3D-5D3E9A3517F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A4DBC7-472A-40ED-BC3D-5D3E9A3517F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A4DBC7-472A-40ED-BC3D-5D3E9A3517F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A4DBC7-472A-40ED-BC3D-5D3E9A3517F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9A74F1-EAEE-4912-A978-A6E3EFEE2774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9A74F1-EAEE-4912-A978-A6E3EFEE2774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9A74F1-EAEE-4912-A978-A6E3EFEE2774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9A74F1-EAEE-4912-A978-A6E3EFEE2774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C27731DA-3D1B-4C1C-8B3F-0525EA8A26F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27731DA-3D1B-4C1C-8B3F-0525EA8A26F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27731DA-3D1B-4C1C-8B3F-0525EA8A26F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27731DA-3D1B-4C1C-8B3F-0525EA8A26F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B50573C-7007-4CA8-9116-7C507982A44B}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://nikulov.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SignalRDemo\\SignalRServer.csproj
+		SccProjectName1 = SignalRDemo
+		SccLocalPath1 = SignalRDemo
+		SccProjectUniqueName2 = WPFDesktopSingalRClient\\WPFDesktopSingalRClient.csproj
+		SccProjectName2 = WPFDesktopSingalRClient
+		SccLocalPath2 = WPFDesktopSingalRClient
+		SccProjectUniqueName3 = SignalRTestClients\\SignalRTestClients.csproj
+		SccProjectName3 = SignalRTestClients
+		SccLocalPath3 = SignalRTestClients
+		SccProjectUniqueName4 = SignalRSecondClient\\SignalRSecondClient.csproj
+		SccProjectName4 = SignalRSecondClient
+		SccLocalPath4 = SignalRSecondClient
+	EndGlobalSection
+EndGlobal
